@@ -3,7 +3,7 @@ permalink: erreurs-japonais
 tags:
   - japonais
 draft: false
-date: 2024-10-21
+date: 2024-10-20
 ---
 
 J'ai commencé à étudier le japonais en décembre 2020, après avoir appris les hiraganas de mon côté. J'ai appris l'anglais de manière assez naturelle, avec quelques cours à l'école mais aussi et surtout en regardant des vidéos YouTube et des séries. Par contre, pour le japonais, je n'avais pas l'impression que c'était possible d'utiliser cette méthode, donc j'ai décidé de prendre des cours privés sur Skype.

@@ -1,11 +1,13 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { QuartzPluginData } from "./quartz/plugins/vfile"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
+    Component.RecentNotes({ filter: (f: QuartzPluginData) => f.filePath != "content/index.md"  }),
     Component.Comments({
       provider: 'giscus',
       options: {
