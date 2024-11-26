@@ -8,4 +8,4 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "monthtly"
+      interval: "monthty"
