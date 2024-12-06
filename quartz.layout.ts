@@ -7,7 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.RecentNotes({ filter: (f: QuartzPluginData) => f.filePath != "content/index.md"  }),
+    Component.RecentNotes({ filter: (f: QuartzPluginData) => f.filePath != "content/index.md" }),
     Component.Comments({
       provider: 'giscus',
       options: {
@@ -25,8 +25,11 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
+      Mastodon: "https://mastodon.gamedev.place/@stowy",
+      Bluesky: "https://bsky.app/profile/stowy.ch",
       Twitter: "https://x.com/St0wy",
       GitHub: "https://github.com/St0wy",
+      GitLab: "https://gitlab.com/Stowy",
     },
   }),
 }

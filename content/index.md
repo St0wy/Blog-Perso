@@ -1,5 +1,6 @@
 ---
 title: Bienvenue sur mon blog
+comments: false
 ---
 
 Je m'appelle Fabian aka Stowy sur internet. 
